@@ -17,14 +17,22 @@
   "scripts": {
     "start": "parcel src/index.html --open -p 3000",
     "build:prod": "parcel build src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
     "@types/react": "^16.9.36",
     "@types/react-dom": "^16.9.8",
+    "babel-loader": "^8.1.0",
     "parcel": "^1.12.4",
     "parcel-bundler": "^1.12.4",
     "source-map-loader": "^1.0.0",
